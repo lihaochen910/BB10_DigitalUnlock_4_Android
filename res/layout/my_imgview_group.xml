@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.kanbaru.DIYview.MyImgView
+        android:id="@+id/myImgView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:src="@drawable/num_0" />
+
+    <com.kanbaru.DIYview.MyImgView
+        android:id="@+id/myImgView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="50dp"
+        android:layout_y="0dp"
+        android:src="@drawable/num_1" />
+
+    <com.kanbaru.DIYview.MyImgView
+        android:id="@+id/myImgView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="100dp"
+        android:layout_y="0dp"
+        android:src="@drawable/num_3" />
+
+    <com.kanbaru.DIYview.MyImgView
+        android:id="@+id/myImgView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="150dp"
+        android:layout_y="0dp"
+        android:src="@drawable/num_4" />
+
+    <com.kanbaru.DIYview.MyImgView
+        android:id="@+id/myImgView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="50dp"
+        android:src="@drawable/num_7" />
+
+    <com.kanbaru.DIYview.MyImgView
+        android:id="@+id/myImgView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="200dp"
+        android:layout_y="0dp"
+        android:src="@drawable/num_6" />
+
+    <com.kanbaru.DIYview.MyImgView
+        android:id="@+id/myImgView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="250dp"
+        android:layout_y="0dp"
+        android:src="@drawable/num_2" />
+
+    <com.kanbaru.DIYview.MyImgView
+        android:id="@+id/myImgView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="300dp"
+        android:layout_y="0dp"
+        android:src="@drawable/num_4" />
+
+    <com.kanbaru.DIYview.MyImgView
+        android:id="@+id/myImgView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="100dp"
+        android:src="@drawable/num_4" />
+
+    <com.kanbaru.DIYview.MyImgView
+        android:id="@+id/myImgView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="150dp"
+        android:src="@drawable/num_5" />
+
+    <com.kanbaru.DIYview.MyImgView
+        android:id="@+id/myImgView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="200dp"
+        android:src="@drawable/num_7" />
+
+    <com.kanbaru.DIYview.MyImgView
+        android:id="@+id/myImgView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="250dp"
+        android:src="@drawable/num_4" />
+
+    <com.kanbaru.DIYview.MyImgView
+        android:id="@+id/myImgView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="300dp"
+        android:src="@drawable/num_7" />
+
+    <com.kanbaru.DIYview.MyImgView
+        android:id="@+id/myImgView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="350dp"
+        android:src="@drawable/num_3" />
+
+    <com.kanbaru.DIYview.MyImgView
+        android:id="@+id/myImgView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="400dp"
+        android:src="@drawable/num_6" />
+
+    <com.kanbaru.DIYview.MyImgView
+        android:id="@+id/myImgView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="450dp"
+        android:src="@drawable/num_1" />
+
+    <com.kanbaru.DIYview.MyImgView
+        android:id="@+id/myImgView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="500dp"
+        android:src="@drawable/num_6" />
+
+</AbsoluteLayout>

@@ -1,0 +1,61 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/FrameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/default_lockscreen"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <FrameLayout
+        android:id="@+id/FrameLayout_alpha"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_alpha" >
+
+        <FrameLayout
+            android:id="@+id/FrameLayout_status_bar_2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/status_bar" >
+
+            <TextView
+                android:id="@+id/textView_title_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:text="选择图片"
+                android:textColor="#ffffff"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/button_back"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="#00000000"
+                android:text="返回"
+                android:textColor="@color/blackberry10_blue"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button_img_default"
+                android:layout_width="wrap_content"
+           	 	android:layout_height="fill_parent"
+            	android:layout_gravity="right"
+            	android:background="@color/blackberry10_alpha"
+            	android:text="跳过"
+            	android:textColor="@color/blackberry10_blue"
+            	android:textStyle="bold" />
+
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/button_choose_img"
+            android:layout_width="fill_parent"
+            android:layout_height="64dp"
+            android:layout_gravity="bottom"
+            android:background="#2B2B2B"
+            android:text="从图库选择"
+            android:textColor="#ffffff" />
+    </FrameLayout>
+
+</FrameLayout>

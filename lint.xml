@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ClickableViewAccessibility">
+        <ignore path="src/com/kanbaru/DIYview/MyImgView.java" />
+        <ignore path="src/com/kanbaru/DIYview/MyImgViewGroup.java" />
+    </issue>
+    <issue id="DrawAllocation" severity="ignore" />
+    <issue id="NewApi" severity="ignore">
+        <ignore path="src/com/kanbaru/digitalunlock/ImgChooseActivity.java" />
+        <ignore path="src/com/kanbaru/digitalunlock/SetLocationActivity.java" />
+    </issue>
+</lint>

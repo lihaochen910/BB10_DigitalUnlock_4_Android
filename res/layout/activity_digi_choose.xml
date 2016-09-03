@@ -1,0 +1,160 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/FrameLayout4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <AbsoluteLayout
+        android:id="@+id/AbsoluteLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_alpha" >
+
+        <FrameLayout
+            android:id="@+id/FrameLayout_status_bar_3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/status_bar_2" >
+
+            <TextView
+                android:id="@+id/textView_title_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:text="选择号码"
+                android:textColor="#ffffff"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/button_back_4"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="#00000000"
+                android:text="返回"
+                android:textColor="@color/blackberry10_blue"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/button_no_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="157dp"
+            android:layout_y="138dp"
+            android:background="@drawable/button_digi_select"
+            android:text="2"
+            android:textColor="#FFFFFFFF" />
+
+        <Button
+            android:id="@+id/button_no_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="67dp"
+            android:layout_y="138dp"
+            android:background="@drawable/button_digi_select"
+            android:text="1"
+            android:textColor="#FFFFFFFF" />
+
+        <Button
+            android:id="@+id/button_no_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="247dp"
+            android:layout_y="138dp"
+            android:background="@drawable/button_digi_select"
+            android:text="3"
+            android:textColor="#FFFFFFFF" />
+
+        <Button
+            android:id="@+id/button_no_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="67dp"
+            android:layout_y="208dp"
+            android:background="@drawable/button_digi_select"
+            android:text="4"
+            android:textColor="#FFFFFFFF" />
+
+        <Button
+            android:id="@+id/button_no_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="157dp"
+            android:layout_y="208dp"
+            android:background="@drawable/button_digi_select"
+            android:text="5"
+            android:textColor="#FFFFFFFF" />
+
+        <Button
+            android:id="@+id/button_no_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="247dp"
+            android:layout_y="208dp"
+            android:background="@drawable/button_digi_select"
+            android:text="6"
+            android:textColor="#FFFFFFFF" />
+
+        <Button
+            android:id="@+id/button_no_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="67dp"
+            android:layout_y="278dp"
+            android:background="@drawable/button_digi_select"
+            android:text="7"
+            android:textColor="#FFFFFFFF" />
+
+        <Button
+            android:id="@+id/button_no_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="157dp"
+            android:layout_y="278dp"
+            android:background="@drawable/button_digi_select"
+            android:text="8"
+            android:textColor="#FFFFFFFF" />
+
+        <Button
+            android:id="@+id/button_no_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="157dp"
+            android:layout_y="348dp"
+            android:background="@drawable/button_digi_select"
+            android:text="0"
+            android:textColor="#FFFFFFFF" />
+
+        <Button
+            android:id="@+id/button_no_9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="247dp"
+            android:layout_y="278dp"
+            android:background="@drawable/button_digi_select"
+            android:text="9"
+            android:textColor="#FFFFFFFF" />
+
+        <SeekBar
+            android:id="@+id/seekBar1"
+            android:layout_width="286dp"
+            android:layout_height="wrap_content"
+            android:layout_x="45dp"
+            android:layout_y="460dp"
+            android:max="20"
+            android:progress="5" />
+
+        <TextView
+            android:id="@+id/textView_cp_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="19dp"
+            android:layout_y="433dp"
+            android:text="检测灵敏度"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+    </AbsoluteLayout>
+
+</FrameLayout>

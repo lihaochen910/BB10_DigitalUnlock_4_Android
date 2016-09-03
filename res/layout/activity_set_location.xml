@@ -1,0 +1,57 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/FrameLayout4"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_black"
+    tools:context="com.kanbaru.digitalunlock.SetLocationActivity" >
+
+    <FrameLayout
+        android:id="@+id/FrameLayout_status_bar_4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/status_bar" >
+
+        <Button
+            android:id="@+id/button_back_4"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="#00000000"
+            android:text="返回"
+            android:textColor="@color/blackberry10_blue"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_nextstep_4"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right"
+            android:background="@color/blackberry10_alpha"
+            android:text="下一步"
+            android:textColor="@color/blackberry10_blue" />
+
+        <TextView
+            android:id="@+id/textView_title_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:text="选择位置"
+            android:textColor="#ffffff"
+            android:textSize="18dp" />
+    </FrameLayout>
+
+    <com.kanbaru.DIYview.MyImgView
+        android:id="@+id/imageView_demo"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:scaleType="center"
+        android:src="@drawable/num_0" />
+
+    <TextView
+        android:id="@+id/textView_widget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffffff" />
+
+</FrameLayout>

@@ -1,0 +1,83 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/FrameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="left"
+    android:background="@android:color/black"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <FrameLayout
+        android:id="@+id/FrameLayout_status_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/status_bar" >
+
+        <Button
+            android:id="@+id/button_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="#00000000"
+            android:text="取消"
+            android:textColor="@color/blackberry10_blue"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView_title_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:text="图片密码"
+            android:textColor="#ffffff"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/button_nextstep"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right"
+            android:background="@color/blackberry10_alpha"
+            android:text="下一步"
+            android:textColor="@color/blackberry10_blue" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_1_1"
+        android:layout_width="match_parent"
+        android:layout_height="468dp"
+        android:layout_gravity="bottom"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView_1_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textview_1_1"
+            android:textColor="#ffffff"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:id="@+id/imageView_demo"
+            android:layout_width="242dp"
+            android:layout_height="242dp"
+            android:layout_gravity="center_vertical|center_horizontal|center"
+            android:src="@drawable/demo" />
+
+        <TextView
+            android:id="@+id/textView_n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\n"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/textView_1_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textview_1_2"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</FrameLayout>
